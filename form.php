@@ -248,7 +248,7 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
         //
         print PHP_EOL . '<!-- SECTION 3c html Form -->' . PHP_EOL;
         //
-        /* Display the HTML form. note that the action is to this same page. $phpSelf
+        /* Display the HTML form. Note that the action is to this same page. $phpSelf
             is defined in top.php
             NOTE the line:
             value="<?php print $email; ?>
@@ -263,48 +263,48 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-       
-    
+<form action = "<?php print $phpSelf; ?>"       
+          id = "frmRegister"
+          method = "post">
+
+                <fieldset class = "contact">
+                    <legend>Contact Information</legend>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <p>
+                        <label class = "required" for = "txtEmail">Email</label>
+                            <input 
+
+                                   id = "txtEmail"
+                                   maxlength = "45"
+                                   name = "txtEmail"
+                                   onfocus = "this.select()"
+                                   placeholder = "Enter your email address"
+                                   tabindex = "120"
+                                   type = "text"
+                                   value = ""
+                            >
+                    </p>
+                </fieldset> <!-- ends contact -->
+
+            <fieldset class="buttons">
+                <legend></legend>
+                <input class = "button" id = "btnSubmit" name = "btnSubmit" tabindex = "900" type = "submit" value = "Register" >
+            </fieldset> <!-- ends buttons -->
+    </form>       
     
     </article>
 </main>
