@@ -26,7 +26,7 @@ print PHP_EOL . '<!-- SECTION: 1b form variables -->' . PHP_EOL;
 
 
 
- 
+$email = "your-email@uvm.edu";        
 
 //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
@@ -295,7 +295,7 @@ print PHP_EOL . '<!-- SECTION 3 Display Form -->' . PHP_EOL;
                                    placeholder = "Enter your email address"
                                    tabindex = "120"
                                    type = "text"
-                                   value = ""
+                                   value = "<?php print $email; ?>"
                             >
                     </p>
                 </fieldset> <!-- ends contact -->
