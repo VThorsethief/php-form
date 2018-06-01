@@ -74,7 +74,7 @@ if (isset($_POST["btnSubmit"])) {
 
     
     
-    
+    $email = filter_var($_POST["txtEmail"], FILTER_SANITIZE_EMAIL);       
         
     
     
