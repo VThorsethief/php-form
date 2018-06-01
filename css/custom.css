@@ -24,11 +24,7 @@ footer{
     clear: both;
 }
 
-/*****************     form section                ****************************/
-#form{
-    /* dont like this after all font: bold 0.6em Arial,Helvetica,sans-serif; */
-}
-       
+/*****************     form section                ****************************/     
 fieldset{
     border: 2px solid #00498e;
     clear: both;
@@ -38,60 +34,28 @@ fieldset{
 
 label {
     color: #005cb3;
-    display: inline-block;
-    font-size: 1em;
+    display: block;
     font-weight: bold;
     padding-right: 1em;
-    text-align: right;
-    width: 10%;
 }
 
-.form-heading {
-    border-bottom: 2px solid #ddd;
-    font-size: 1.25em;
-    font-style: italic;
-    font-weight: bold;
-    margin-bottom: 1.75em;
-    padding-bottom: 0.4em;
-}
-
-.check-field{
-    margin: 0 0 1.25em 7.5em;
-}
-
-.radio-field{
-    margin: 0 0 1.25em 7.5em;
-}
-
-.text-field{
-    display: block;
-    float: left;
-    margin: 0 0 1.2em;
-    padding-right: 0.5em;
-    padding-top: 0.75em;
-    text-align: right;
-    width: 7em;
-}
-
-#form input,
-#form textarea,
-#form select{
+input,
+textarea,
+select{
     box-sizing: border-box;
     border: 2px solid #C2C2C2;
     box-shadow: 2px 2px 4px #EBEBEB; 
     border-radius: 3px;
     padding: 1em;
-    outline: none;
-    width: 88%;
 }
 
-#form input:focus,
-#form textarea:focus,
-#form select:focus{
+input:focus,
+textarea:focus,
+select:focus{
     border: 1px solid #0C0;
 }
 
-#form input[type=submit]{
+input[type=submit]{
     background: #005cb3 none repeat scroll 0 0;
     border: medium none;
     border-radius: 3px;
@@ -103,8 +67,22 @@ label {
 .buttons legend{
     display: none;
 }
+
 .buttons{
     text-align: center;
+}
+
+.form-heading {
+    border-bottom: 2px solid #ddd;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1.75em;
+    padding-bottom: 0.4em;
+}
+
+.text-field{
+    width: 100%;
 }
 
 /* style the errors in the form so they are visible */       
