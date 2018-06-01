@@ -26,7 +26,7 @@ footer{
 
 /*****************     form section                ****************************/
 #form{
-    font: bold 0.6em Arial,Helvetica,sans-serif;
+    /* dont like this after all font: bold 0.6em Arial,Helvetica,sans-serif; */
 }
        
 fieldset{
